@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+.sudokucontainer
+{
+	border:1px solid black;
+	padding:20px;
+}
+.sudokucontainer .sudokuboard
+{
+	border-left:1px solid black;
+}
+.sudokutable
+{
+	border: 2px solid black;
+	margin:0;
+}
+.sudokutable td
+{
+	border: 2px solid black;
+	text-align:center;
+	vertically-align:middle;
+}
+.sudokutable .evengrid
+{
+	background-color:#FADBD8;
+}
+.sudokutable .oddgrid
+{
+	background-color:#F5B7B1;
+}
+.sudokosolutiontable
+{
+	border: 2px solid black;
+	margin:0;
+}
+.sudokusolutiontable td
+{
+	border: 2px solid black;
+	text-align:center;
+	vertically-align:middle;
+}
+.sudokusolutiontable input
+{
+	margin:0;
+	padding:0;
+	width:35px;
+	height:35px;
+	border:0;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+	text-align:center;
+}
+#sudokusolution
+{
+	visibility:hidden;
+	display:none;
+}
+.sudokusolvesolutiontable
+{
+	border: 2px solid black;
+	margin:0;
+}
+.sudokusolvesolutiontable td
+{
+	border: 2px solid black;
+	text-align:center;
+	vertically-align:middle;
+}
+.sudokusolvesolutiontable input
+{
+	margin:0;
+	padding:0;
+	width:35px;
+	height:35px;
+	border:0;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+	text-align:center;
+}
+#sudokusolvesolution
+{
+	visibility:hidden;
+	display:none;
+}
+.sudokutable input
+{
+	margin:0;
+	padding:0;
+	width:35px;
+	height:35px;
+	border:0;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+	text-align:center;
+}
+p .description
+{
+	font-size:70px;
+	width:30px;
+}
+.formbutton
+{
+	margin-left:80px;
+	width:200px;
+	font-size:100px;
+}
+.generatecontainer
+{
+	padding:0;
+}
+.disable
+{
+	background-color:#D6EAF8;
+	pointer-events: none;
+}
+.playcontainer
+{
+		padding:0;
+}
